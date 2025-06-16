@@ -37,5 +37,51 @@ body {
 
 .header h2 {
   font-weight: 400;
-  text-shadow: 4px 1px 2px rgba(0,0,0,0.72);
+  text-shadow: 4px 1px 2px rgba(0, 0, 0, 0.72);
+}
+
+.introduction {
+  max-width: 1000px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.series h2 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.series h3 {
+  color: white;
+}
+
+.series {
+  background: rgb(83, 83, 83);
+  padding: 2rem;
+}
+
+.series-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.series-container img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.image {
+    padding: 2rem;
+}
+
+.image h3 {
+    text-align: center;
+    padding: 1rem;
 }
