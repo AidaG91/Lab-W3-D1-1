@@ -53,6 +53,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
+  padding: 1rem;
 }
 
 .series h3 {
@@ -62,26 +63,40 @@ body {
 .series {
   background: rgb(83, 83, 83);
   padding: 2rem;
+  width: 100%;
 }
 
 .series-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
+  margin: auto;
+  width: 1200px;
 }
 
 .series-container img {
   width: 500px;
   height: 350px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .image {
-    padding: 2rem;
+  padding: 2rem;
+  box-shadow: 10px 10px 66px 0px rgba(255, 255, 255, 0.68);
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: black;
 }
 
 .image h3 {
-    text-align: center;
-    padding: 1rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 1rem;
 }
